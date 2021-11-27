@@ -23,4 +23,21 @@ animation-iteration-count: infinite;
 .heart img:hover{
     width: 200px;height: 200px;
 }
-
+.split{margin-top: 150px;}
+.split p{text-align: justify;column-count: 3;
+column-rule: dashed rgb(132, 132, 145);column-gap: 100px;}
+.new p{width: 200px;height: 100px; overflow-y: scroll;
+    border:5px solid black; border-radius: 30%; box-shadow:4px 4px 5px 20px blueviolet;
+}
+.text-effect{
+    font-size: 5em; text-align: center;
+    color: blue; text-shadow: 4px 4px 5px red;
+    transition: transform 2s;
+}
+.text-effect:hover{
+    transform: rotate(360deg);
+}
+.gradient{
+    width:100%;height:100px;
+    background-image: linear-gradient(to left,red,blue);
+}
